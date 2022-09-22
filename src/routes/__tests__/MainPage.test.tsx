@@ -30,6 +30,6 @@ describe('MainPage', () => {
     })
 
     it('shuld fail', () => {
-        expect(1 + 1).toBe(3);
+        expect(1 + 1).toBe(4);
     })
 })
