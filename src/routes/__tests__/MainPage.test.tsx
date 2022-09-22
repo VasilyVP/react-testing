@@ -28,8 +28,4 @@ describe('MainPage', () => {
         const title = screen.getByTestId('page_two');
         expect(title).toBeInTheDocument();        
     })
-
-    it('shuld fail', () => {
-        expect(1 + 1).toBe(3);
-    })
 })
