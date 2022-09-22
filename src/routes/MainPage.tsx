@@ -4,7 +4,8 @@ export default function MainPage() {
 
     return (
         <div data-testid='main_page'>
-            <h1>Pages:</h1>
+            <h1>Main page</h1>
+            <h2>Pages:</h2>
             <ul>
                 <li>
                     <Link to='/page_one' data-testid='page_one_link'>Page one</Link>

@@ -6,8 +6,11 @@ exports[`App test should match snapshot 1`] = `
     data-testid="main_page"
   >
     <h1>
-      Pages:
+      Main page
     </h1>
+    <h2>
+      Pages:
+    </h2>
     <ul>
       <li>
         <a

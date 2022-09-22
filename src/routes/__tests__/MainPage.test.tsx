@@ -6,7 +6,7 @@ import userEvent from "@testing-library/user-event";
 describe('MainPage', () => {
     it('header should be rendered', () => {
         renderRoute();
-        const header = screen.getByRole('heading');
+        const header = screen.getByText('Pages:');
 
         expect(header).toBeInTheDocument();
     })
