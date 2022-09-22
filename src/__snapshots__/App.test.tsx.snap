@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App test should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="main_page"
+  >
+    <h1>
+      Pages:
+    </h1>
+    <ul>
+      <li>
+        <a
+          data-testid="page_one_link"
+          href="/page_one"
+        >
+          Page one
+        </a>
+      </li>
+      <li>
+        <a
+          data-testid="page_two_link"
+          href="/page_two"
+        >
+          Page two
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageOne should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="page_one"
+  >
+    <h1>
+      Page one
+    </h1>
+    <div
+      style="display: flex; flex-direction: column; justify-content: space-between; width: 50px; height: 50px;"
+    >
+      <button
+        data-testid="click+"
+      >
+        Click +
+      </button>
+      <button
+        data-testid="click-"
+      >
+        Click -
+      </button>
+    </div>
+    <p
+      data-testid="count"
+    >
+      Count: 
+      0
+    </p>
+    <a
+      data-testid="back_link"
+      href="/"
+    >
+      Back
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTwo should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="page_two"
+  >
+    <h1>
+      Page two
+    </h1>
+    <h2>
+      Users:
+    </h2>
+    <ul>
+      <li>
+        Leanne Graham
+      </li>
+      <li>
+        Ervin Howell
+      </li>
+      <li>
+        Clementine Bauch
+      </li>
+    </ul>
+    <a
+      data-testid="back_link"
+      href="/"
+    >
+      Back
+    </a>
+  </div>
+</div>
+`;
